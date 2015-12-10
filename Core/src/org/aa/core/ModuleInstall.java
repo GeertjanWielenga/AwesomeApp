@@ -1,8 +1,6 @@
 package org.aa.core;
 
 import static java.lang.Thread.sleep;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.UIManager;
 import org.openide.modules.OnStart;
 import org.openide.windows.OnShowing;
