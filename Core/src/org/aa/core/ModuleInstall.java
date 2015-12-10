@@ -18,7 +18,7 @@ public class ModuleInstall implements Runnable {
         } catch (InterruptedException ex) {
         }
         UIManager.put("EditorTabDisplayerUI", "org.aa.core.NoTabsTabDisplayerUI");
-        //Optionally, remove the border too:
+        //Optionally, remove the three-sided border too:
         //UIManager.put(DefaultTabbedContainerUI.KEY_EDITOR_CONTENT_BORDER, BorderFactory.createEmptyBorder());
     }
 
