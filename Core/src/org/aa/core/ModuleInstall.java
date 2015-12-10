@@ -16,7 +16,6 @@ public class ModuleInstall implements Runnable {
         try {
             sleep(500);
         } catch (InterruptedException ex) {
-            Logger.getLogger(ModuleInstall.class.getName()).log(Level.SEVERE, null, ex);
         }
         UIManager.put("EditorTabDisplayerUI", "org.aa.core.NoTabsTabDisplayerUI");
     }
